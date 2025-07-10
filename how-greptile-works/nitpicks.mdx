@@ -122,23 +122,23 @@ graph TD
 
 ### What Gets Suppressed vs. What Doesn't
 
-<Accordion>
-<AccordionItem title="✅ Gets Suppressed (if consistently ignored)">
-- Style/formatting issues
-- Import organization
-- Missing documentation (non-critical)
-- Naming convention deviations
-- Code organization preferences
-</AccordionItem>
+<AccordionGroup>
+  <Accordion title="✅ Gets Suppressed (if consistently ignored)">
+    - Style/formatting issues
+    - Import organization
+    - Missing documentation (non-critical)
+    - Naming convention deviations
+    - Code organization preferences
+  </Accordion>
 
-<AccordionItem title="🚫 Never Gets Suppressed">
-- Security vulnerabilities
-- Memory leaks
-- Infinite loops
-- Null pointer exceptions
-- Data validation missing from user inputs
-</AccordionItem>
-</Accordion>
+  <Accordion title="🚫 Never Gets Suppressed">
+    - Security vulnerabilities
+    - Memory leaks
+    - Infinite loops
+    - Null pointer exceptions
+    - Data validation missing from user inputs
+  </Accordion>
+</AccordionGroup>
 
 ## The Result: Focused Reviews
 
